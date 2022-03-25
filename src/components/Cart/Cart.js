@@ -1,9 +1,19 @@
 import React from 'react';
+import CartItem from './CartItem/CartItem';
+import './Cart.css';
 
-const Cart = () => {
+const Cart = ({cart}) => {
+    
     return (
-        <div>
-            
+        <div className="card-sidebar">
+            <h3>Cart List</h3>
+
+            <ul>
+                {
+                    cart.map(item => <CartItem item={item} />)
+                }
+            </ul>
+
         </div>
     );
 };

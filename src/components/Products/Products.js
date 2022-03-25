@@ -5,10 +5,8 @@ import { faBagShopping } from '@fortawesome/free-solid-svg-icons';
 
 import './Products.css';
 
-const Products = ({product}) => {
+const Products = ({product, handleAddToCart}) => {
     const { name, img, price } = product;
-
-    console.log(product);
 
     return (
         <Card>
@@ -16,7 +14,9 @@ const Products = ({product}) => {
             <Card.Body>
                 <Card.Title>{name}</Card.Title>
                 <Card.Text>${price}</Card.Text>
-                <Button variant="primary">Add To Cart <FontAwesomeIcon icon={faBagShopping} /></Button>
+                <Button variant="primary" onClick={() => handleAddToCart(product)}>
+                    Add To Cart <FontAwesomeIcon icon={faBagShopping} />
+                </Button>
             </Card.Body>
         </Card>
     );
