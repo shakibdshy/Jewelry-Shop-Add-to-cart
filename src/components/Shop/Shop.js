@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import { addToDb, getStoredCart, removeFromDb } from '../../utilities/fakedb';
+import { addToDb, deleteShoppingCart, getStoredCart, removeFromDb } from '../../utilities/fakedb';
 import Cart from '../Cart/Cart';
 import Products from '../Products/Products';
 import './Shop.css';
@@ -52,6 +52,11 @@ const Shop = () => {
         removeFromDb(id);
     }
 
+    const emptyCart = (id) => {
+        setCart([]);
+        deleteShoppingCart();
+    }
+
     return (
         <section className='shop-container py-5'>
             <Container fluid>
@@ -67,7 +72,7 @@ const Shop = () => {
                         </div>
                     </Col>
                     <Col md={4}>
-                        <Cart cart={cart} removeFormCart={removeFormCart} />
+                        <Cart cart={cart} removeFormCart={removeFormCart} emptyCart={emptyCart} />
                     </Col>
                 </Row>
             </Container>

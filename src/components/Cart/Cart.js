@@ -1,8 +1,9 @@
 import React from 'react';
+import { Button } from 'react-bootstrap';
 import CartItem from './CartItem/CartItem';
 import './Cart.css';
 
-const Cart = ({cart, removeFormCart}) => {
+const Cart = ({cart, removeFormCart, emptyCart}) => {
     return (
         <div className="card-sidebar">
             <h3>Cart List</h3>
@@ -12,7 +13,11 @@ const Cart = ({cart, removeFormCart}) => {
                     cart.map(item => <CartItem item={item} key={item.id} removeFormCart={removeFormCart} />)
                 }
             </ul>
-
+            
+            <div className="button-group">
+                <Button variant="outline-info">Select One</Button>
+                <Button variant="outline-danger" onClick={() => emptyCart()}>Empty Cart</Button>
+            </div>
         </div>
     );
 };
