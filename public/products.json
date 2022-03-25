@@ -6,7 +6,7 @@
     "stock": 20,
     "ratings": 4,
     "ratingsCount": 3725,
-    "img": "../images/image1.jpg",
+    "img": "https://moryphea.sirv.com/assignment8/image1.jpg",
     "shipping": 1,
     "quantity": 0
   },
@@ -17,7 +17,7 @@
     "stock": 20,
     "ratings": 4,
     "ratingsCount": 3725,
-    "img": "../images/image2.jpg",
+    "img": "https://moryphea.sirv.com/assignment8/image2.jpg",
     "shipping": 1,
     "quantity": 0
   },
@@ -28,18 +28,7 @@
     "stock": 20,
     "ratings": 4,
     "ratingsCount": 3725,
-    "img": "../images/image3.jpg",
-    "shipping": 1,
-    "quantity": 0
-  },
-  {
-    "id": "3",
-    "name": "Diamond Sea",
-    "price": 400,
-    "stock": 20,
-    "ratings": 4,
-    "ratingsCount": 3725,
-    "img": "../images/image1.jpg",
+    "img": "https://moryphea.sirv.com/assignment8/image3.jpg",
     "shipping": 1,
     "quantity": 0
   },
@@ -50,7 +39,7 @@
     "stock": 20,
     "ratings": 4,
     "ratingsCount": 3725,
-    "img": "../images/image4.jpg",
+    "img": "https://moryphea.sirv.com/assignment8/image4.jpg",
     "shipping": 1,
     "quantity": 0
   },
@@ -61,7 +50,7 @@
     "stock": 20,
     "ratings": 4,
     "ratingsCount": 3725,
-    "img": "../images/image5.jpg",
+    "img": "https://moryphea.sirv.com/assignment8/image5.jpg",
     "shipping": 1,
     "quantity": 0
   },
@@ -72,7 +61,7 @@
     "stock": 20,
     "ratings": 4,
     "ratingsCount": 3725,
-    "img": "../images/image6.jpg",
+    "img": "https://moryphea.sirv.com/assignment8/image6.jpg",
     "shipping": 1,
     "quantity": 0
   },
@@ -83,7 +72,7 @@
     "stock": 20,
     "ratings": 4,
     "ratingsCount": 3725,
-    "img": "../images/image7.jpg",
+    "img": "https://moryphea.sirv.com/assignment8/image7.jpg",
     "shipping": 1,
     "quantity": 0
   },
@@ -94,7 +83,7 @@
     "stock": 20,
     "ratings": 4,
     "ratingsCount": 3725,
-    "img": "../images/image8.jpg",
+    "img": "https://moryphea.sirv.com/assignment8/image8.jpg",
     "shipping": 1,
     "quantity": 0
   },
@@ -105,7 +94,7 @@
     "stock": 20,
     "ratings": 4,
     "ratingsCount": 3725,
-    "img": "../images/image9.jpg",
+    "img": "https://moryphea.sirv.com/assignment8/image9.jpg",
     "shipping": 1,
     "quantity": 0
   },
@@ -116,7 +105,7 @@
     "stock": 20,
     "ratings": 4,
     "ratingsCount": 3725,
-    "img": "../images/image10.jpg",
+    "img": "https://moryphea.sirv.com/assignment8/image10.jpg",
     "shipping": 1,
     "quantity": 0
   },
@@ -127,7 +116,7 @@
     "stock": 20,
     "ratings": 4,
     "ratingsCount": 3725,
-    "img": "../images/image11.jpg",
+    "img": "https://moryphea.sirv.com/assignment8/image11.jpg",
     "shipping": 1,
     "quantity": 0
   },
@@ -138,7 +127,7 @@
     "stock": 20,
     "ratings": 4,
     "ratingsCount": 3725,
-    "img": "../images/image12.jpg",
+    "img": "https://moryphea.sirv.com/assignment8/image12.jpg",
     "shipping": 1,
     "quantity": 0
   }

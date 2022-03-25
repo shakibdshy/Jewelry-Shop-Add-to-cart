@@ -1,9 +1,6 @@
 import React from 'react';
-// import { Navbar, Container, Nav } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav';
-import Container from 'react-bootstrap/Container';
+import { Navbar, Container, Nav } from 'react-bootstrap';
 
 import './Header.css';
 
