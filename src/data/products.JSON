@@ -1,0 +1,145 @@
+[
+  {
+    "id": "1",
+    "name": "Elsa Peretti® Diamonds",
+    "price": 350,
+    "stock": 20,
+    "ratings": 4,
+    "ratingsCount": 3725,
+    "img": "../images/image1.jpg",
+    "shipping": 1,
+    "quantity": 0
+  },
+  {
+    "id": "2",
+    "name": "Diamond Sea",
+    "price": 400,
+    "stock": 20,
+    "ratings": 4,
+    "ratingsCount": 3725,
+    "img": "../images/image2.jpg",
+    "shipping": 1,
+    "quantity": 0
+  },
+  {
+    "id": "3",
+    "name": "The Diamond Band",
+    "price": 300,
+    "stock": 20,
+    "ratings": 4,
+    "ratingsCount": 3725,
+    "img": "../images/image3.jpg",
+    "shipping": 1,
+    "quantity": 0
+  },
+  {
+    "id": "3",
+    "name": "Diamond Sea",
+    "price": 400,
+    "stock": 20,
+    "ratings": 4,
+    "ratingsCount": 3725,
+    "img": "../images/image1.jpg",
+    "shipping": 1,
+    "quantity": 0
+  },
+  {
+    "id": "4",
+    "name": "The Galleria of Gems",
+    "price": 400,
+    "stock": 20,
+    "ratings": 4,
+    "ratingsCount": 3725,
+    "img": "../images/image4.jpg",
+    "shipping": 1,
+    "quantity": 0
+  },
+  {
+    "id": "5",
+    "name": "The Velvet Box",
+    "price": 500,
+    "stock": 20,
+    "ratings": 4,
+    "ratingsCount": 3725,
+    "img": "../images/image5.jpg",
+    "shipping": 1,
+    "quantity": 0
+  },
+  {
+    "id": "6",
+    "name": "Serpenti Viper 18k Rose Gold",
+    "price": 600,
+    "stock": 20,
+    "ratings": 4,
+    "ratingsCount": 3725,
+    "img": "../images/image6.jpg",
+    "shipping": 1,
+    "quantity": 0
+  },
+  {
+    "id": "7",
+    "name": "Ladies Double Hoop Earrings",
+    "price": 700,
+    "stock": 20,
+    "ratings": 4,
+    "ratingsCount": 3725,
+    "img": "../images/image7.jpg",
+    "shipping": 1,
+    "quantity": 0
+  },
+  {
+    "id": "8",
+    "name": "Divas Dream White Gold Necklace",
+    "price": 400,
+    "stock": 20,
+    "ratings": 4,
+    "ratingsCount": 3725,
+    "img": "../images/image8.jpg",
+    "shipping": 1,
+    "quantity": 0
+  },
+  {
+    "id": "9",
+    "name": "Diamond Velvet",
+    "price": 900,
+    "stock": 20,
+    "ratings": 4,
+    "ratingsCount": 3725,
+    "img": "../images/image9.jpg",
+    "shipping": 1,
+    "quantity": 0
+  },
+  {
+    "id": "10",
+    "name": "Gold Necklace",
+    "price": 1000,
+    "stock": 20,
+    "ratings": 4,
+    "ratingsCount": 3725,
+    "img": "../images/image10.jpg",
+    "shipping": 1,
+    "quantity": 0
+  },
+  {
+    "id": "11",
+    "name": "Anglo-Saxon source",
+    "price": 1100,
+    "stock": 20,
+    "ratings": 4,
+    "ratingsCount": 3725,
+    "img": "../images/image11.jpg",
+    "shipping": 1,
+    "quantity": 0
+  },
+  {
+    "id": "12",
+    "name": "Dayman",
+    "price": 1200,
+    "stock": 20,
+    "ratings": 4,
+    "ratingsCount": 3725,
+    "img": "../images/image12.jpg",
+    "shipping": 1,
+    "quantity": 0
+  }
+]
