@@ -57,6 +57,13 @@ const Shop = () => {
         deleteShoppingCart();
     }
 
+    const randomItem = (item) => {
+        let random = [];
+        const randomProduct = products[Math.floor(Math.random() * item.length)];
+        random.push(randomProduct);
+        setCart(random);
+    }
+
     return (
         <section className='shop-container py-5'>
             <Container fluid>
@@ -72,7 +79,7 @@ const Shop = () => {
                         </div>
                     </Col>
                     <Col md={4}>
-                        <Cart cart={cart} removeFormCart={removeFormCart} emptyCart={emptyCart} />
+                        <Cart cart={cart} randomItem={randomItem} removeFormCart={removeFormCart} emptyCart={emptyCart} />
                     </Col>
                 </Row>
             </Container>
