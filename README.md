@@ -1,4 +1,4 @@
 # Jewelry Shop
 
-This project Live URL [https://github.com/facebook/create-react-app](https://github.com/facebook/create-react-app).
+This project Live URL [https://jewelry-shop-react.netlify.app/](https://jewelry-shop-react.netlify.app/).
 
