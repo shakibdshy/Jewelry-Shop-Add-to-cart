@@ -3,10 +3,9 @@ import { Button } from 'react-bootstrap';
 import CartItem from './CartItem/CartItem';
 import './Cart.css';
 
-const Cart = ({cart, removeFormCart, emptyCart}) => {
-    const randomItem = item => Math.floor(Math.random() * item.length);
-    console.log(randomItem(cart));
-
+const Cart = ({cart, removeFormCart, emptyCart,}) => {
+    // let element = Math.floor(Math.random() * cart.length - 1);
+    // console.log(element);
     return (
         <div className="card-sidebar">
             <h3>Cart List</h3>
@@ -18,7 +17,7 @@ const Cart = ({cart, removeFormCart, emptyCart}) => {
             </ul>
             
             <div className="button-group">
-                <Button variant="outline-info" onClick={ () => randomItem(cart)}>Select One</Button>
+                <Button variant="outline-info">Select One</Button>
                 <Button variant="outline-danger" onClick={() => emptyCart()}>Empty Cart</Button>
             </div>
         </div>
